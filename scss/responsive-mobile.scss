@@ -1,4 +1,6 @@
-@import 'variables', 'reset', 'fonts';
+@import 'variables';
+@import 'reset';
+@import 'fonts';
 
 @media (max-width:767px){
   [class*=inner] {
