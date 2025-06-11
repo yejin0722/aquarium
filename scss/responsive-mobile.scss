@@ -1,0 +1,1456 @@
+@import 'variables', 'reset', 'fonts';
+
+@media (max-width:767px){
+  [class*=inner] {
+    width: 90%;
+    margin: auto;
+  }
+  .title-wrap {
+    h2 {
+      font-size: 30px;
+      font-weight: bold;
+      font-family: $title-font;
+    }
+
+    p {
+      margin: 8px 0 15px;
+      font-size: 14px;
+    }
+  }
+  /* sub-page */
+  @at-root .page-title{
+    height: 250px;
+    h2{
+      color: $white;
+      padding-top: 60px;
+      font-size: 30px; line-height: 150px;
+      text-align: center; font-weight: bold;
+    }
+    .page-title-inner{
+      background: rgba(255, 255, 255, 0.342) ;
+      width: 100%; height: 40px;
+      padding: 0; 
+      border-radius: 5px 5px 0 0;
+      @at-root .now-page-title{
+        ul{
+          height: 40px;
+          display: flex;
+          align-items: center;
+          li{
+            height: 100%;
+            color: $white; line-height: 40px;
+            padding: 0 15px; font-weight: 600;
+            font-size: 13px;
+            i{
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+  }
+  @at-root .container-title{
+    text-align: center;
+    h3{
+      font-size: 25px; 
+      font-weight: bold; text-align: center;
+      position: relative;
+      display: inline-block;
+      margin: 0 auto;
+      &::after{
+        content: '';
+        width: 100%; height: 4px;
+        background: rgba(#60A7E9,.6);
+        position: absolute;
+        bottom: 5px; left: 0;
+        z-index: -1;
+        
+      }
+    }
+    img{
+      width: 50px;
+      margin-right: -20px;
+      margin-bottom: -15px;
+      z-index: -1;
+    }
+  }
+
+  .header {
+    width: 100%;
+
+    .header-inner {
+      width: 100%;
+
+      .logo {
+        font-size: 12px;
+        text-align: center;
+        flex: 0 !important;
+        width: 100px;
+        margin-left: 30px;
+      }
+
+      nav {
+        display: none;
+        width: 100% !important;
+
+        ul {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          margin-right: 10px;
+          font-size: 15px;
+
+          li {
+            margin-right: 1px;
+
+            a {
+              // 아쿠아리움 소개, 프로그램 이벤트 등
+              text-align: center;
+              font-size: 13px;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header .mobile-menu-btn {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+    align-items: center;
+
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .mobile-menu {
+
+    background-color: rgba(rgb(1, 1, 24), 95%);
+    //background-color: rgba(rgb(0,0,0), 95%);
+    overflow: hidden;
+    transition: .5s;
+    max-height: 0;
+    height: 100vh;
+
+    &.active {
+      max-height: 100vh;
+      display: block;
+
+    }
+
+
+
+    .sub-menu-list {
+      margin-top: 10%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      text-align: right;
+
+      >li {
+        margin-bottom: 10px;
+        z-index: 5;
+
+        &.active {
+          >a {
+            color: rgba($maincolor, 100%);
+            position: relative;
+            
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 10px;
+              left: 0;
+              border: 1px solid rgba($maincolor, 100%);
+              width: 100vw;
+            }
+          }
+        }
+
+        >a {
+          position: relative;
+          font-size: 20px;
+          padding: 20px;
+          font-weight: bold;
+          color: white;
+
+
+        }
+        .sub-menu-list-content {
+          flex: 7;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          padding: 0 20px;
+          max-height: 0;
+          transition: .3s;
+
+          &.active {
+            max-height: 100px;
+            display: flex;
+          }
+
+          li {
+            margin-top: 20px;
+            flex: 1;
+            z-index: 10;
+            &.none-link{
+              a{
+                color: #7a7a7a;
+                &:hover{
+                color: #7a7a7a;
+                }
+              }
+            }
+            a {
+              color: white;
+
+              &:hover {
+                color: $subcolor;
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .sub-menu {
+    display: none;
+  }
+
+  .sidenav .sidenav-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  /*~~~~~~~~~~main-visual/*~~~~~~~~~~*/
+
+
+  .main-visual {
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 !important;
+    width: 100%;
+
+    video {
+      height: auto !important;
+    }
+
+    .wave {
+      display: none;
+    }
+
+    .main-visual-inner {
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+
+      .main-visual-text-wrap {
+
+
+        p {
+          // 소개 문구
+          font-size: 16px;
+          color: white;
+        }
+
+        h1 {
+          font-size: 25px;
+
+          em {
+            // 강조된 '롯데월드 아쿠아리움'
+            font-size: 25px !important;
+            color: white;
+            text-decoration: none;
+            color: $remon;
+            font-style: normal;
+          }
+
+          // 나머지 텍스트
+        }
+      }
+    }
+
+    .sidenav {
+      bottom: 0;
+      left: 0;
+
+      .sidenav-container {
+        height: 70px;
+        flex-direction: row;
+
+        .info-warp {
+          flex-direction: row !important;
+
+        }
+
+        .info-item {
+          display: flex;
+          flex-direction: row;
+
+          i {
+            font-size: 30px;
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .sidenav {
+    width: 100%;
+
+    .sidenav-container {
+      background-color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      border-left: 1px solid black;
+      position: absolute;
+      z-index: 2;
+      right: 0;
+      left: 0;
+      bottom: 0;
+
+      .info-top {
+        display: flex;
+        margin: 0;
+      }
+
+      .info-bottom {
+        display: flex;
+        margin: 0;
+
+      }
+
+      .info-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+
+        i {
+          font-size: 24px !important;
+        }
+
+        span {
+          font-size: 14px !important;
+          color: white;
+        }
+
+        &:hover {
+
+          i,
+          span {
+            transform: translateY(0px) !important;
+          }
+
+        }
+      }
+    }
+  }
+
+
+  /* ~~~~~~~~~~ creatures ~~~~~~~~~~ */
+  .creatures {
+    margin: 0;
+
+    .creatures-inner {
+      .creatures-content {
+        flex-direction: column !important;
+
+        .creatures-map {
+
+          img {
+            width: 100%;
+          }
+
+
+          span {
+            font-size: 40px;
+            cursor: pointer;
+
+            i {
+              color: rgba($subcolor, .8);
+
+              transition: .3s;
+
+              // 핑 이미지
+              &.active {
+                color: $maincolor;
+                font-size: 50px !important;
+                transform: translate(-10px, -20px);
+              }
+
+              &:hover {
+                // 핑 이미지 hover 효과
+                color: $maincolor;
+              }
+            }
+
+
+
+          }
+
+
+          .creatures-info {
+            width: 100% !important;
+            flex-direction: row !important;
+
+            img {
+              width: 50% !important;
+            }
+
+            .creatures-info-warps {
+              position: relative;
+              width: 100% !important;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-evenly;
+              align-items: center;
+              padding: 20px;
+              gap: 20px;
+
+              img {
+                width: 100% !important;
+                margin-bottom: 20px;
+              }
+
+              .creatures-text-warps {
+                width: 100% !important;
+                margin-bottom: 40px;
+
+                .creatures-name {
+                  width: 100%;
+                  text-align: left;
+                }
+
+                .creatures-name {
+                  height: 10px;
+                }
+
+                .creatures-text {
+                  width: 100%;
+                  text-align: left;
+                }
+
+                .creatures-item-btn {
+                  position: inherit;
+                  margin: 0 !important;
+                  width: 100%;
+                  height: 50px;
+                  line-height: 50px;
+                  padding: 0;
+                }
+              }
+
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+
+    /* ~~~~~~~~~~ program ~~~~~~~~~~ */
+
+    .program {
+      .program-content {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+        .program-items {
+          width: 100%;
+          height: 150px;
+
+          .item-thum {
+            width: 100%;
+            height: 100%;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-position: left top;
+            }
+          }
+
+          .item-thum-text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+
+            h4 {
+              color: $white;
+              font-size: 17px;
+              font-weight: bold;
+              text-align: center;
+              margin-bottom: 20px;
+            }
+          }
+
+          .hover-wrap {
+            border-radius: $border-radius;
+            .video {
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              z-index: 4;
+              opacity: 0;
+              transition: 0.4s ease;
+              
+            }
+
+            .item-text {
+              h4 {
+                color: $white;
+                font-size: 22px;
+                margin-bottom: 20px;
+              }
+
+              .program-item-btn {
+                margin-top: 0;
+              }
+            }
+
+            &::before {
+              content: '';
+              height: 150px;
+            }
+          }
+
+          &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: rgba($color: #000, $alpha: .4);
+            z-index: 3;
+          }
+
+          &:hover {
+            width: 100%;
+            height: 150px;
+
+            .hover-wrap {
+              border-radius: $border-radius;
+              .video {
+                width: 100%;
+                height: 150px;
+                border-radius: $border-radius;
+              }
+
+              .item-text {
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr auto;
+                grid-auto-rows: auto;
+                padding: 10px;
+
+                h4 {
+                  font-size: 20px;
+                  grid-column: 1;
+                  grid-row: 1;
+                }
+
+                p {
+                  font-size: 14px;
+                  grid-column: 1;
+                  margin: 0;
+
+                  &:nth-of-type(1) {
+                    grid-row: 2;
+                  }
+
+                  &:nth-of-type(2) {
+                    grid-row: 3;
+                  }
+                }
+
+                .program-item-btn {
+                  grid-column: 2;
+                  grid-row: 3;
+                  margin: 0;
+                  margin-bottom: 10px;
+                }
+
+              }
+
+              &::before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                opacity: .5;
+              }
+            }
+
+            .item-thum {
+              img {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    /* ~~~~~~~~~~ event ~~~~~~~~~~ */
+    .event {
+      .event-inner {}
+
+      .event-content {
+        overflow-x: hidden;
+
+        .event-content-wrap {
+          padding: 10px 0;
+          flex-direction: column-reverse;
+
+
+          .event-desc {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            justify-content: space-between;
+            height: 220px;
+            width: 280px;
+
+            .event-text {
+              #event-title {
+                font-size: 20px;
+                margin-bottom: 10px;
+
+                em {}
+              }
+
+              #event-time {
+                font-size: 14px;
+                margin-bottom: 1px;
+              }
+
+              #event-location {
+                font-size: 14px;
+              }
+
+              .event-more-btn {
+                font-size: 14px;
+                margin: 15px 0;
+              }
+            }
+
+            .event-thumb-btn {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              img {
+                text-align: center;
+                width: 60px;
+                height: 75px;
+                filter: brightness(50%);
+                cursor: pointer;
+                transition: filter 0.3s ease;
+
+                &.active {
+                  filter: brightness(100%);
+                }
+              }
+            }
+          }
+
+          .event-thumb {
+            margin-bottom: -20px;
+            margin-top: 30px;
+            img {
+              width: 280px;
+              height: 330px;
+            }
+          }
+        }
+      }
+    }
+
+    /* ~~~~~~~~~~ news ~~~~~~~~~~ */
+    .news {
+      background: url(../images/news-bg.png) no-repeat center;
+
+      .news-inner {
+        margin-top: 10px;
+        padding: 50px;
+        padding-top: 100px;
+
+        .title-wrap {}
+
+        .news-content {
+          .news-btn {
+            height: 0px;
+
+            a {
+              right: 50%;
+              transform: translateX(50%);
+              transition: .3s;
+              bottom: -5px;
+            }
+          }
+
+          .swiper {
+            .news-card-wrap {
+              flex-direction: column;
+              height: 400px;
+              margin-top: 25px;
+              margin-bottom: 20px;
+
+              .news-card {
+                width: 90%;
+                height: 60px !important;
+                flex-direction: row;
+                margin: 20px auto;
+                padding: 20px;
+                transition: .3s;
+
+                &:hover {
+                  transform: scale(1.05);
+                }
+
+                .news-card-tag {
+                  padding: 5px 10px;
+                  top: 15px;
+                  left: -20px;
+                }
+
+                .news-card-title {
+                  font-size: 14px;
+                  margin: auto;
+                }
+
+                .news-card-text {
+                  display: none;
+                }
+              }
+            }
+          }
+
+          .swiper-pagination {
+            display: none;
+          }
+        }
+      }
+    }
+
+    /* ~~~~~~~~~~ directions ~~~~~~~~~~ */
+    .directions {
+      .directions-inner {
+        .directions-content {
+          .directions-btn-wrap {
+            .directions-btn {
+              margin: 50px;
+
+              a {
+                &:hover i {
+                  color: $white;
+                  background: $maincolor;
+                }
+
+                i {
+                  font-size: 20px;
+                  color: $maincolor;
+                  display: flex;
+                  width: 65px;
+                  height: 65px;
+                  justify-content: center;
+                  align-items: center;
+                  border-radius: 50%;
+                  background: #F3F3F3;
+                  transition: .3s;
+                }
+
+                p {
+                  font-size: 16px;
+                  color: $maincolor;
+                  font-weight: bold;
+                  padding-top: 10px;
+                }
+              }
+            }
+          }
+
+          .map {
+            iframe {
+              width: 75%;
+              height: 350px;
+              display: block;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+
+    /* ~~~~~~~~~~ review ~~~~~~~~~~ */
+    .review {
+      .review-content {
+        .review-swiper {
+          .swiper-wrapper {
+            .swiper-slide {
+              width: 200px;
+              height: 200px;
+
+              .text-wrap {
+                img {
+                  width: 20px;
+                  height: 20px;
+                  object-position: center;
+                }
+
+                .review-text {
+                  display: none;
+                  ;
+                }
+
+                .tags {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* ~~~~~~~~~~ footer ~~~~~~~~~~ */
+    footer {
+      height: 220px;
+
+      .footer-inner {
+        height: 220px;
+        padding: 20px 0;
+
+        .footer-top-wrap {
+          flex-direction: column;
+          gap: 20px;
+
+          .logo {
+            font-size: 15px;
+            font-weight: 900;
+          }
+
+          .address {
+            p {
+              font-size: 13px;
+              text-align: center;
+              margin: 10px 0;
+
+              &.copy {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+      /* ########## 서브페이지 : event (조예진) ########## */
+.event-all-inner{
+  width: 100%;
+  .event-all-container{
+      .event-title{
+        margin: 50px 0;
+        .subpage-title-point{
+          width: 40px;
+        }
+        h3{
+          font-size: 23px;
+        }
+      }
+      .event-card-wrap{
+        flex-direction: column;
+        gap: 30px !important;
+        .event-card{
+          padding-bottom: 30px;
+          border-bottom: 1px solid rgba($dark-black, 0.3);
+          margin: auto;
+          width: 90% !important;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          &:last-child{border: none;}
+          .card-img{
+            img{width: 200px !important; height: 240px !important;
+              object-fit: cover;}
+          }
+          .card-desc{
+            width: 170px !important;
+            margin-left: 20px;
+            letter-spacing: -1px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 45%;
+            .event-label{
+              font-size: 14px;
+              &.end-event{
+              }
+            }
+            .event-card-title{
+              font-size: 15px;
+              &.end-event-title{
+              }
+            }
+            .event-card-time{
+              font-size: 15px;
+            }
+            .more-view-btn{
+              font-size: 13px;
+                img{
+                }
+            }
+          }
+        }
+      }
+  }
+}
+  /* ########## 서브페이지 : news (조예진) ########## */
+.news-all-inner{
+width: 100%;
+.news-all-container{
+  .news-title{
+    margin: 50px 0;
+    .subpage-title-point{
+      width: 40px;
+    }
+    h3{
+      font-size: 23px;
+    }
+  }
+  #my-table{
+    width: 90%;
+    tbody{
+      tr{
+        td{
+          padding: 15px;
+          font-size: 15px;
+          &:first-child{display: none;}
+          &:last-child{font-size: 13px;}
+        }
+      }
+    }
+  }
+  .news-pagenation{
+    margin-top: 30px;
+    .fa-solid{font-size: 14px;}
+    #numbers{
+      margin: 5px 10px;
+      font-size: 14px;
+      li{
+        a{
+          width: 25px;
+          height: 25px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
+}
+  /* ~~~~~~~~~~ sub-program ~~~~~~~~~~ */
+  .sub-page-program{
+    .program-all-inner{
+      .program-all-container{
+        .program-link-btns{
+          margin: 20px 0;
+          .program-link-btn{
+            font-size: 12px; font-weight: 600;
+            margin: 5px;
+            padding: 10px 10px;
+            &:hover{
+              background: $maincolor;
+              color: $white; font-weight: bold;
+            }
+          }
+        }
+        .program-content{
+          display: flex; flex-direction: column; align-items: center; 
+          .program-item{
+            align-items: center; justify-content: center; 
+            gap: 10px; padding: 20px;
+            flex-direction: column;
+            justify-content: center; align-items: center;
+            .program-img{
+              margin-top: 20px;
+              width: 90%; object-fit: cover;
+              img{
+                border-radius: 5px;
+                width: 100%; height: 80%;
+              }
+            }
+            .text-wrap{
+              .title{
+                display: flex; margin: 10px 0;
+                h4{
+                  font-size: 18px; font-weight:   bold;
+                  margin-right: 17px;
+                }
+                .title-tags{
+                .tag{
+                  padding: 2px 5px;
+                  font-size: 12px;
+                  &.Individual{
+                    background-color: $Individual-btn;
+                  }
+                  &.Paid{
+                    background: $Paid-btn;
+                  }
+                  &.Free{
+                    background: $facebook;
+                  }
+                  &.Group{
+                    background: $Group-btn;
+                  }
+                }
+              }
+              }
+              .sub-title{
+                p{
+                  margin: 10px 0; font-size: 15px;
+                }
+              }
+              .tags{
+                p{
+                  font-size: 12px;
+                }
+              }
+              .hidden-wrap{
+                margin-top: 20px;
+                max-height: 0; overflow: hidden;
+                order: 5;
+                .places{
+                  width: 100%;
+                  display: flex; flex-direction: column;
+                  p{
+                    &.reference{
+                      font-size: 10px;
+                    }
+                  }
+                }
+                p{
+                  width: 95%;
+                  line-height: 2;
+                  margin: 10px 0;
+                }
+              }
+              .btns{
+                margin: 10px 0;
+                order: 4;
+                .program-btn{
+                margin-top: 20px;
+                background: $maincolor; border: none;
+                padding: 10px 15px; margin-right: 15px;
+                color: $white; font-weight: 600;
+                border-radius: $border-radius;
+                transition: .3s;
+                &:hover{
+                  background: $subcolor;
+                }
+                &.detail-btn{
+                  background: #404040;
+                  &:hover{
+                    background: #727272;
+                  }
+                }
+              }
+            }
+            }
+            &:hover{
+              border: 1px solid $maincolor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //-----------------Sea-Creatures_sub
+  .Sea-Creature-all-inner{
+
+
+  }
+  .Sea-Creature{
+    .Sea-Creatures-inner {
+      padding: 20px 0;
+      width: 100%;
+  
+      >h2 {
+        border: 1px solid #000;
+      }
+  
+      .Sea-Creatures-wrap {
+        .Sea-Creatures-items {
+          width: 100% !important;
+          >h2 {
+            font-size: 18px !important;
+          }
+  
+          &:nth-child(1) {
+            margin-bottom: 30px !important;
+          }
+  
+          .Sea-Creatures-item {
+            
+            width: 100%;
+            .Sea-Creatures-card-wrap {
+              gap: 10px !important;
+              justify-content: center;
+  
+              .Sea-Creatures-card {
+                width: calc(48%) !important;
+  
+                .Sea-Creatures-card-img {
+                  position: relative;
+                  height: 200px;
+  
+                  &.best_Card {
+                    position: relative;
+  
+                    &::after {
+                      content: "";
+                      position: absolute;
+                      background-repeat: no-repeat;
+                      width: 50px !important;
+                      height: 50px !important;
+                      background-image: url(../imagesSub/Creatures_crown.png);
+                      background-size: contain;
+                      left: 85% !important;
+                      top: -12% !important;
+                      z-index: 1;
+                    }
+                  }
+  
+                  img {
+                    width: 100%;
+                  }
+                }
+  
+                .Sea-Creatures-card-title {
+                  h3 {
+                    font-size: 16px !important; //모바일 글씨 크기 조절 16
+                  }
+  
+                  span {
+                    font-size: 18px !important; //모바일 글씨 크기 조절 16
+                  }
+  
+                  .Sea-Creatures-card-tag {
+                    gap: 14px !important; //모바일 갭 크기 조절 4
+  
+                    span {
+                      font-size: 14px !important; //모바일 글씨 크기 조절 11
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  
+  
+    }
+
+  }
+  
+  //-------------ticket
+  
+  .sub-page-ticket{
+    .Ticket-all-inner{
+      margin: 0;
+      width: 100%;
+      .Ticket-all-container{
+        .ticket {
+          width: 100%;
+          display: flex;
+      
+          .ticket-warps {
+            width: 100%;
+      
+            .ticket-content {
+              width: 100% !important;
+              display: flex;
+              height: 450px;
+              margin-top: 50px;
+              flex-direction: column;
+      
+              .button-warps {
+                width: 100%;
+                display: flex;
+                position: relative;
+      
+                &::after {
+                  display: none;
+      
+                }
+      
+                &::before {
+                  display: none;
+      
+                }
+      
+                button {
+                  flex: 1;
+                  background-image: none !important;
+                  border: none;
+                  font-size: 14px !important;
+                  display: flex;
+                  height: 79px !important;
+                  justify-content: center;
+                  align-items: center;
+      
+                  color: white;
+      
+                  &:first-child {
+                    background-image: none !important;
+                  }
+      
+                  &.active {
+                    background-color: $maincolor !important;
+                  }
+      
+                  &:not(.active) {
+                    background-color: $subcolor !important; // active가 없을 때
+                  }
+      
+                  // 스타일 지정
+                }
+              }
+      
+              .ticket-img {
+                height: 100%;
+                background-image: url(../imagesSub/ticket-background01.jpg);
+                background-size: cover;
+                position: relative;
+                z-index: -2;
+      
+                &::after {
+                  position: absolute;
+                  content: "";
+                  width: 100%;
+                  height: 100%;
+                  background-color: rgba(0, 0, 0, 0.3);
+                  left: 0;
+                  top: 0;
+                  z-index: -1;
+                }
+      
+                >h2 {
+                  font-size: 16px !important;
+                  color: white;
+      
+                  em {
+                    font-style: normal;
+                    color: $remon;
+                  }
+                }
+      
+                .ticket-text-warps {
+                  display: flex;
+      
+                  .ticket-text {
+                    flex: 1;
+                    color: white;
+      
+                    h2 {
+                      margin-top: 10%;
+                    }
+      
+                    span {
+                      display: flex;
+                    }
+                  }
+      
+                  .ticket-button {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+      
+                  
+                  }
+                }
+              }
+            }
+          }
+      
+          //티켓 사용 방법
+          .ticket-inner {
+            width: 100%;
+      
+            .ticket-step-warps {
+              display: flex;
+              flex-direction: column;
+              padding: 0;
+              margin-top: 100px;
+              background-color: #f6f6f6;
+              width: 100%;
+      
+              .ticket-step {
+                margin-top: 95px;
+                flex: 1;
+                display: flex;
+                flex-direction: row !important;
+      
+                h4 {
+                  font-weight: bold;
+                  // STEP 제목 스타일
+                  font-size: 20px;
+                  flex: 4 !important;
+      
+                }
+      
+                .img-wrapper {
+                  flex: 2 !important;
+                  position: relative;
+                  display: inline-block;
+                  margin: 0 10px;
+                }
+      
+                &:not(:last-child) .img-wrapper::after {
+                  display: none;
+                  content: "";
+                  position: absolute;
+                  width: 30px;
+                  height: 30px;
+                  right: -100%;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  background-image: url(../imagesSub/ticket-step-arrow.png);
+                  background-repeat: no-repeat;
+                }
+      
+                img {
+      
+                  // 이미지 스타일
+                }
+      
+                span {
+                  font-weight: bold;
+                  font-size: 16px;
+                  flex: 4 !important;
+                  // 설명 텍스트 스타일
+                }
+              }
+            }
+      
+      
+      
+          }
+      
+          .ticket-info-inner-warps {
+            width: 100%;
+            margin-top: 100px;
+      
+            .ticket-info-title {
+              text-align: center;
+      
+              h2 {
+                width: 100%;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+                padding: 55px 0;
+                font-weight: bold;
+      
+              }
+            }
+      
+            .ticket-info-text {
+              border-bottom: 1px solid #000;
+              text-align: center;
+              font-size: 18px;
+              padding: 12px 0;
+              font-weight: bold;
+      
+              p {
+                font-weight: bold;
+      
+                em {
+                  font-weight: bold;
+      
+                  font-style: normal;
+                  color: #F6CA85;
+      
+                  &:hover {
+                    color: $subcolor;
+      
+                  }
+                }
+              }
+            }
+      
+            .ticket-info-price-warps {
+              display: flex;
+              flex-direction: column;
+              border-bottom: 1px solid #00000000 !important;
+      
+              span {
+                font-weight: bold;
+      
+              }
+      
+              .ticket-info-price {
+                position: relative;
+                flex: 1;
+      
+                display: flex;
+                justify-content: space-around;
+                align-items: end;
+                padding: 20px 0 !important;
+                display: flex;
+                gap: 10px;
+                font-size: 16px;
+                border-bottom: 1px solid #000000;
+                text-align: center;
+      
+                .age-type {
+                  flex: 1;
+                }
+      
+                .ticket-price {
+                  flex: 1;
+                }
+      
+                &::after {
+                  position: absolute;
+                  content: "";
+                  height: 100%;
+                  width: 1px;
+                  border-right: 1px solid #000;
+                  left: 50%;
+                  transform: translate(50%);
+                  top: 0%;
+                }
+              }
+            }
+          }
+        }
+  
+      }
+
+    }
+  }
+}

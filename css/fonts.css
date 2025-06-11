@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 경북대 진리체 */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@font-face {
+  font-family: "KNUTRUTHTTF";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/KNUTRUTHTTF.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* logo */
+/* 국민연금 */
+@font-face {
+  font-family: "NPSfontBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
