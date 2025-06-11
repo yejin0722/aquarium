@@ -1,6 +1,6 @@
 
 /* ~~~~~~~~~~ haeder ~~~~~~~~~~ */
-fetch('/aquarium/html/include/header.html')
+fetch('/aquarium/include/header.html')
 .then(response => response.text())
 .then(data => {
   document.querySelector('.header-include').innerHTML = data;
@@ -293,7 +293,7 @@ window.onresize = function(){
 };
 
 /* ~~~~~~~~~~ footer ~~~~~~~~~~ */
-fetch('//aquarium/html/include/footer.html')
+fetch('/aquarium/include/footer.html')
   .then(response => response.text())
   .then(data => {
     document.querySelector('.footer-include').innerHTML = data;
