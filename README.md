@@ -106,7 +106,7 @@
   <tr>
     <td width="70%">
 
-- **Main - Program**
+ **Main - Program**
   - 카드에 마우스를 올리면 동영상 자동 재생  
   - 클릭 시 해당 프로그램 상세 페이지로 이동  
 
@@ -118,7 +118,7 @@
   <tr>
     <td width="70%">
 
-- **Main - Event**
+ **Main - Event**
   - 이벤트 썸네일 클릭 시 관련 자료로 이동  
   - 이벤트 서브 페이지 연결
 
@@ -130,7 +130,7 @@
   <tr>
     <td width="70%">
 
-- **Main - Sea Creatures**
+ **Main - Sea Creatures**
   - 아쿠아리움 지도 위 위치 아이콘 클릭 시 해당 생물 정보 확인  
   - 관련 서브 페이지로 이동 가능
 
@@ -142,7 +142,7 @@
   <tr>
     <td width="70%">
 
-- **Main - News**
+ **Main - News**
   - 데스크탑: 뉴스 자동 롤링  
   - 모바일: 리스트 형태로 전환 표시  
   - 각 뉴스 클릭 시 공지사항 서브 페이지로 이동
@@ -155,18 +155,18 @@
   <tr>
     <td width="70%">
 
-- **Main - Directions**
+ **Main - Directions**
   - Google Maps API 연동하여 위치 정보 표시
 
     </td>
-    <td width="30%" align="right"
+    <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/441c5e41-e3d7-4e52-86f0-3d9fec07bb85" alt="Directions Image" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="70%">
 
-- **Main - Review**
+ **Main - Review**
   - 데스크탑: 자동 슬라이드 리뷰  
   - 모바일: 드래그하여 리뷰 탐색, 클릭 시 상세 리뷰 확인 가능
 
