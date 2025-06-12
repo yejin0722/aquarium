@@ -98,9 +98,9 @@
 
     </td>
     <td align="right">
-      <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Image 1" width="400"/>
+      <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Header Image 1" width="400"/>
       <br/>
-      <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Image 2" width="400"/>
+      <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Header Image 2" width="400"/>
     </td>
   </tr>
 </table>
@@ -111,52 +111,77 @@
   <tr>
     <td width="70%">
 
-- **Main - Program**
-  - 카드에 마우스를 올리면 동영상 자동 재생  
-  - 클릭 시 해당 프로그램 상세 페이지로 이동  
-
-    </td>
-    <td align="right">
-      <img src="https://github.com/user-attachments/assets/28c5e702-5356-472e-a40d-fa1f32818741" alt="Program Image" width="400" />
-    </td>
-  </tr>
-</table>
-
-
-- **Main - Program**
-  - 카드에 마우스를 올리면 동영상 자동 재생  
-  - 클릭 시 해당 프로그램 상세 페이지로 이동  
-
-    </td>
-    <td align="right">
-      <img src="https://github.com/user-attachments/assets/28c5e702-5356-472e-a40d-fa1f32818741" alt="Program Image" width="300" />
-    </td>
-  </tr>
-</table>
-
 - **Main - Event**
-  - 이벤트 썸네일 클릭 시 관련 자료로 이동
+  - 이벤트 썸네일 클릭 시 관련 자료로 이동  
   - 이벤트 서브 페이지 연결
 
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/fd2f4dd3-29c8-4d2d-a2ec-afc9911ea55f" alt="Event Image" width="400" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="70%">
 
 - **Main - Sea Creatures**
-  - 아쿠아리움 지도 위 위치 아이콘 클릭 시 해당 생물 정보 확인
+  - 아쿠아리움 지도 위 위치 아이콘 클릭 시 해당 생물 정보 확인  
   - 관련 서브 페이지로 이동 가능
 
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/351eace2-97e9-41d7-9fc4-b2ebc5b9454b" alt="Sea Creatures Image" width="400" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="70%">
 
 - **Main - News**
-  - 데스크탑: 뉴스 자동 롤링
-  - 모바일: 리스트 형태로 전환 표시
+  - 데스크탑: 뉴스 자동 롤링  
+  - 모바일: 리스트 형태로 전환 표시  
   - 각 뉴스 클릭 시 공지사항 서브 페이지로 이동
 
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/f40fa99a-a73f-4476-b503-9da51bd75c92" alt="News Image" width="400" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="70%">
 
 - **Main - Directions**
   - Google Maps API 연동하여 위치 정보 표시
 
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/441c5e41-e3d7-4e52-86f0-3d9fec07bb85" alt="Directions Image" width="400" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="70%">
 
 - **Main - Review**
-  - 데스크탑: 자동 슬라이드 리뷰
+  - 데스크탑: 자동 슬라이드 리뷰  
   - 모바일: 드래그하여 리뷰 탐색, 클릭 시 상세 리뷰 확인 가능
+
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/92cb3e5e-26b4-4a04-ae54-27cae3fe75f1" alt="Review Image" width="400" />
+    </td>
+  </tr>
+</table>
+
 
 
 ---
