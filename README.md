@@ -189,9 +189,11 @@
 <table width="100%">
   <tr>
     <td width="70%">
-      **Sub - Sea Creatures (전시 생물 소개)**
-      - **층별로** 전시 생물 구분<br/>
-      - **마우스 hover 시 요약 정보** 표시 (툴팁 형식)
+
+**Sub - Sea Creatures (전시 생물 소개)**
+  - **층별로** 전시 생물 구분  
+  - **마우스 hover 시 요약 정보** 표시 (툴팁 형식)
+
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/eccaf188-2640-48ab-8356-02d14f69e9be" alt="Sub Sea Creatures Image" width="100%" />
@@ -199,9 +201,11 @@
   </tr>
   <tr>
     <td width="70%">
-      <b>Sub - Event (이벤트 안내)</b><br/>
-      - **진행 중/종료 이벤트 구분** 표시<br/>
-      - "자세히 보기" hover 시 시각적 강조 효과
+
+**Sub - Event (이벤트 안내)**
+  - **진행 중/종료 이벤트 구분** 표시  
+  - "자세히 보기" hover 시 시각적 강조 효과
+
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/4677565f-b80c-447d-8cba-28fa819ca928" alt="Sub Event Image" width="100%" />
@@ -209,10 +213,12 @@
   </tr>
   <tr>
     <td width="70%">
-      <b>Sub - Program (설명, 체험, 교육 프로그램)</b><br/>
-      - 개인 예약: 날짜 선택 → 예약 팝업 표시, 빈 날짜 선택 시 경고창 노출<br/>
-      - 단체 예약: 버튼 클릭 시 안내 팝업 표시<br/>
-      - 상세 정보: 버튼 클릭 시 숨겨진 정보 슬라이드로 표시
+
+**Sub - Program (설명, 체험, 교육 프로그램)**
+  - **개인 예약**: 날짜 선택 → 예약 팝업 표시, 빈 날짜 선택 시 경고창 노출  
+  - **단체 예약**: 버튼 클릭 시 안내 팝업 표시  
+  - **상세 정보**: 버튼 클릭 시 숨겨진 정보 슬라이드로 표시
+
     </td>
     <td width="30%" align="right">
       <img src="" alt="Sub Program Image" width="100%" />
@@ -220,9 +226,11 @@
   </tr>
   <tr>
     <td width="70%">
-      <b>Sub - News (공지사항)</b><br/>
-      - 뉴스 리스트 항목 **hover** 시 색상 변경<br/>
-      - **페이지네이션** (처음 / 끝 / 한 페이지씩 이동)
+
+**Sub - News (공지사항)**
+  - 뉴스 리스트 항목 **hover 시 색상 변경**  
+  - **페이지네이션** (처음 / 끝 / 한 페이지씩 이동)
+
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/e04c4e54-5d0e-492e-9943-4e489cd3ed74" alt="Sub News Image" width="100%" />
@@ -230,15 +238,18 @@
   </tr>
   <tr>
     <td width="70%">
-      <b>Sub - Ticket (온라인 예매)</b><br/>
-      - 요금 종류 태그 **클릭 시 관련 정보** 동적 표시<br/>
-      - 반응형 구간에서 요금표 레이아웃 자동 변경
+
+**Sub - Ticket (온라인 예매)**
+  - **요금 종류 태그 클릭 시 관련 정보** 동적 표시  
+  - **반응형 구간**에서 요금표 레이아웃 자동 변경
+
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/0e43183c-a8d2-4ebc-ac9e-51311b6b1210" alt="Sub Ticket Image" width="100%" />
     </td>
   </tr>
 </table>
+
 
  
  ---
