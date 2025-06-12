@@ -30,15 +30,16 @@
 
 ---
 
+## 📦 프로젝트 폴더 구조
 
-📦 #aquarium <br>
- ┣ 📂 css <br>
- ┣ 📂 html <br>
- ┣ 📂 images <br>
- ┣ 📂 imagesSub <br>
- ┣ 📂 include <br>
- ┣ 📂 script <br>
- ┗ 📂 scss <br>
+🗂️ #aquarium  
+┣ 📂 css  
+┣ 📂 html  
+┣ 📂 images  
+┣ 📂 imagesSub  
+┣ 📂 include  
+┣ 📂 script  
+┗ 📂 scss  
   index
 
 
