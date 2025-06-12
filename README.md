@@ -24,6 +24,14 @@
 
 ---
 
+## 🛠 개발 환경
+
+
+- **사용 언어**: HTML, CSS, SCSS, JavaScript  
+- **코드 에디터**: Visual Studio Code  
+
+---
+
 
  ## ✨ 도메인
 👉 [롯데월드 아쿠아리움 리뉴얼 웹사이트 바로가기](https://yejin0722.github.io/aquarium/index.html)
@@ -68,16 +76,6 @@
 | **문현아** | `program`<br>└ 설명 프로그램 / 체험 프로그램 / 교육 프로그램 |
 | **조예진** | `event`, `news`<br>└ 진행 중/종료된 이벤트<br>└ 뉴스, 공지사항 |
 | **이지호** | `sea creatures`, `ticket`<br>└ 전시 생물 소개<br>└ 온라인 예매 |
-
-
----
-
-
-## 🛠 개발 환경
-
-
-- **사용 언어**: HTML, CSS, SCSS, JavaScript  
-- **코드 에디터**: Visual Studio Code  
 
 
 ---
