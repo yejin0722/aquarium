@@ -87,23 +87,40 @@
 ### 🏠 메인 페이지
 
 
+<table>
+  <tr>
+    <td>
+
 - **Header**
-  - 오늘 날짜 및 실시간 온도 표시
-  - 마우스 hover 시 애니메이션 및 서브 페이지로 이동
+  - 오늘 날짜 및 실시간 온도 표시  
+  - 마우스 hover 시 애니메이션 및 서브 페이지로 이동  
   - 모바일 반응형 구간에서 서브 메뉴 레이아웃 자동 변경
-     <br/>
-  <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Image 1" width="400"/>
-   <div align="right">
-  <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Image 2" width="400"/>
-</div>
+
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Image 1" width="300"/>
+      <br/>
+      <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Image 2" width="300"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+  <tr>
+    <td>
 
 - **Main - Program**
-  - 카드에 마우스를 올리면 동영상 자동 재생
-  - 클릭 시 해당 프로그램 상세 페이지로 이동
-   <br/>
-<div align="right">
- <img src="https://github.com/user-attachments/assets/28c5e702-5356-472e-a40d-fa1f32818741" alt="Image 2" width="400" />
-</div>
+  - 카드에 마우스를 올리면 동영상 자동 재생  
+  - 클릭 시 해당 프로그램 상세 페이지로 이동  
+
+    </td>
+    <td align="right">
+      <img src="https://github.com/user-attachments/assets/28c5e702-5356-472e-a40d-fa1f32818741" alt="Program Image" width="300" />
+    </td>
+  </tr>
+</table>
 
 - **Main - Event**
   - 이벤트 썸네일 클릭 시 관련 자료로 이동
