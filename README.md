@@ -1,7 +1,6 @@
  <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=3891e3&height=240&text=롯데월드%20아쿠아리움%20리뉴얼🐬&animation=fadeIn&fontColor=ffffff&fontSize=50" />
     </div>
-# 🐠 롯데월드 아쿠아리움 리뉴얼
 
 ## 🛠 작업자
 팀 **Plan A** 문현아, 조예진, 이지호
