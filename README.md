@@ -23,13 +23,13 @@
 ---
 
 📦 #aquarium
- ┣ 📂 css
- ┣ 📂 html
- ┣ 📂 images
- ┣ 📂 imagesSub
- ┣ 📂 include 
- ┣ 📂 script 
- ┗ 📂 scss
+ ┣ 📂 css <br>
+ ┣ 📂 html <br>
+ ┣ 📂 images <br>
+ ┣ 📂 imagesSub <br>
+ ┣ 📂 include <br>
+ ┣ 📂 script <br>
+ ┗ 📂 scss <br>
   index
 
 ---
@@ -60,13 +60,6 @@
 - **코드 에디터**: Visual Studio Code  
 
 ---
-
- <br/>
- 
-
-## 🐠 롯데월드 아쿠아리움
-**롯데월드 아쿠아리움**은 서울 잠실에 위치한 도심 속 프리미엄 실내 아쿠아리움으로,
-다양한 해양 생물과 생태계 전시를 통해 관람객에게 생태 교육과 감동을 제공합니다.
 
 ## ✨ 주요 기능
 
