@@ -106,7 +106,7 @@
   <tr>
     <td width="70%">
 
- **Main - Program**
+ ### Main - Program
   - 카드에 마우스를 올리면 **동영상 자동 재생**  
   - 클릭 시 해당 프로그램 상세 페이지로 이동  
 
@@ -118,7 +118,7 @@
   <tr>
     <td width="70%">
 
- **Main - Event**
+ ### Main - Event
   - 이벤트 **썸네일 이미지 클릭** 시 관련 자료로 이동  
   - 이벤트 서브 페이지 연결
 
@@ -130,7 +130,7 @@
   <tr>
     <td width="70%">
 
- **Main - Sea Creatures**
+ ### Main - Sea Creatures
   - 아쿠아리움 지도 위 위치 **아이콘 클릭 시 해당 생물 정보** 확인  
   - 관련 서브 페이지로 이동 가능
 
@@ -142,7 +142,7 @@
   <tr>
     <td width="70%">
 
- **Main - News**
+ ### Main - News
   - 데스크탑: **뉴스카드 자동 슬라이드** 
   - 모바일: 슬라이드 없는 **리스트 형태로 전환** 표시  
   - 각 뉴스 클릭 시 공지사항 서브 페이지로 이동
@@ -155,7 +155,7 @@
   <tr>
     <td width="70%">
 
- **Main - Directions**
+ ### Main - Directions
   - Google Maps iframe 위치 정보 표시
 
     </td>
@@ -166,7 +166,7 @@
   <tr>
     <td width="70%">
 
- **Main - Review**
+ ### Main - Review
   - 데스크탑: **자동 슬라이드** 리뷰  
   - 모바일: 드래그하여 리뷰 탐색, 클릭 시 상세 리뷰 확인 가능
 
@@ -188,7 +188,7 @@
   <tr>
     <td width="70%">
 
-**Sub - Sea Creatures (전시 생물 소개)**
+### Sub - Sea Creatures (전시 생물 소개)
   - **층별로** 전시 생물 구분  
   - **마우스 hover 시 요약 정보** 표시 (툴팁 형식)
 
@@ -200,7 +200,7 @@
   <tr>
     <td width="70%">
 
-**Sub - Event (이벤트 안내)**
+### Sub - Event (이벤트 안내)
   - **진행 중/종료 이벤트 구분** 표시  
   - "자세히 보기" hover 시 시각적 강조 효과
 
@@ -212,20 +212,20 @@
   <tr>
     <td width="70%">
 
-**Sub - Program (설명, 체험, 교육 프로그램)**
+### Sub - Program (설명, 체험, 교육 프로그램)
   - **개인 예약**: 날짜 선택 → 예약 팝업 표시, 빈 날짜 선택 시 경고창 노출  
   - **단체 예약**: 버튼 클릭 시 안내 팝업 표시  
   - **상세 정보**: 버튼 클릭 시 숨겨진 정보 슬라이드로 표시
 
     </td>
     <td width="30%" align="right">
-      <img src="" alt="Sub Program Image" width="100%" />
+      <img src="https://github.com/user-attachments/assets/ca7a05e7-1175-4a9c-8a1a-5bcdf18d3c13" alt="Sub Program Image" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="70%">
 
-**Sub - News (공지사항)**
+### Sub - News (공지사항)
   - 뉴스 리스트 항목 **hover 시 색상 변경**  
   - **페이지네이션** (처음 / 끝 / 한 페이지씩 이동)
 
@@ -237,7 +237,7 @@
   <tr>
     <td width="70%">
 
-**Sub - Ticket (온라인 예매)**
+### Sub - Ticket (온라인 예매)
   - **요금 종류 태그 클릭 시 관련 정보** 동적 표시  
   - **반응형 구간**에서 요금표 레이아웃 자동 변경
 
