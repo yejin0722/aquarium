@@ -189,7 +189,7 @@
 <table width="100%">
   <tr>
     <td width="70%">
-      <b>Sub - Sea Creatures (전시 생물 소개)</b><br/>
+      **Sub - Sea Creatures (전시 생물 소개)**
       - **층별로** 전시 생물 구분<br/>
       - **마우스 hover 시 요약 정보** 표시 (툴팁 형식)
     </td>
