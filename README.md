@@ -26,7 +26,7 @@
 
 ---
 
-## 💻 개발 환경
+## 💻 개발 세팅
 
 - **개발 환경** : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat&logo=windows10&logoColor=white"/>
 
