@@ -92,7 +92,7 @@
   - 마우스 hover 시 애니메이션 및 서브 페이지로 이동
   - 모바일 반응형 구간에서 서브 메뉴 레이아웃 자동 변경
 ![Image](https://github.com/user-attachments/assets/31f4a609-7dfa-4174-b44e-d4ca892533e4)
-
+![Image](https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7)
 - **Main - Program**
   - 카드에 마우스를 올리면 동영상 자동 재생
   - 클릭 시 해당 프로그램 상세 페이지로 이동
