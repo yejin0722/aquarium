@@ -106,7 +106,20 @@
 </table>
 
 <br/>
+<table>
+  <tr>
+    <td width="70%">
 
+- **Main - Program**
+  - 카드에 마우스를 올리면 동영상 자동 재생  
+  - 클릭 시 해당 프로그램 상세 페이지로 이동  
+
+    </td>
+    <td width="30%" align="right">
+      <img src="https://github.com/user-attachments/assets/f0ce3b7b-1455-437e-9c4d-06acc7e7a709" alt="Program Image" width="280" />
+    </td>
+  </tr>
+</table>
 <table>
   <tr>
     <td width="70%">
