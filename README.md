@@ -97,7 +97,7 @@
   - 모바일 반응형 구간에서 서브 메뉴 레이아웃 자동 변경
 
     </td>
-    <td width="30%" align="right">
+    <td align="right">
       <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Image 1" width="400"/>
       <br/>
       <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Image 2" width="400"/>
@@ -116,7 +116,7 @@
   - 클릭 시 해당 프로그램 상세 페이지로 이동  
 
     </td>
-    <td width="30%" align="right">
+    <td align="right">
       <img src="https://github.com/user-attachments/assets/28c5e702-5356-472e-a40d-fa1f32818741" alt="Program Image" width="400" />
     </td>
   </tr>
