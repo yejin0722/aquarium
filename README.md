@@ -100,7 +100,7 @@
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/6eccdebc-f3cb-4539-8880-8be7d64e4aff" alt="Header Image 1" width="100%" />
       <br/><br/>
-      <img src="https://github.com/user-attachments/assets/e281e6cd-1194-4c46-81c3-1281ab0bd6e7" alt="Header Image 2" width="100%" />
+      <img src="https://github.com/user-attachments/assets/78072c59-3ef0-4c1e-86b4-e3503d8cc270" alt="Header Image 2" width="100%" />
     </td>
   </tr>
   <tr>
