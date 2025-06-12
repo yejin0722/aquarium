@@ -190,8 +190,8 @@
   <tr>
     <td width="70%">
       <b>Sub - Sea Creatures (전시 생물 소개)</b><br/>
-      - 층별로 전시 생물 구분<br/>
-      - 마우스 hover 시 요약 정보 표시 (툴팁 형식)
+      - **층별로** 전시 생물 구분<br/>
+      - **마우스 hover 시 요약 정보** 표시 (툴팁 형식)
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/eccaf188-2640-48ab-8356-02d14f69e9be" alt="Sub Sea Creatures Image" width="100%" />
@@ -200,7 +200,7 @@
   <tr>
     <td width="70%">
       <b>Sub - Event (이벤트 안내)</b><br/>
-      - 진행 중/종료 이벤트 구분 표시<br/>
+      - **진행 중/종료 이벤트 구분** 표시<br/>
       - "자세히 보기" hover 시 시각적 강조 효과
     </td>
     <td width="30%" align="right">
@@ -221,8 +221,8 @@
   <tr>
     <td width="70%">
       <b>Sub - News (공지사항)</b><br/>
-      - 뉴스 리스트 항목 hover 시 색상 변경<br/>
-      - 페이지네이션 (처음 / 끝 / 한 페이지씩 이동)
+      - 뉴스 리스트 항목 **hover** 시 색상 변경<br/>
+      - **페이지네이션** (처음 / 끝 / 한 페이지씩 이동)
     </td>
     <td width="30%" align="right">
       <img src="https://github.com/user-attachments/assets/e04c4e54-5d0e-492e-9943-4e489cd3ed74" alt="Sub News Image" width="100%" />
@@ -231,7 +231,7 @@
   <tr>
     <td width="70%">
       <b>Sub - Ticket (온라인 예매)</b><br/>
-      - 요금 종류 태그 클릭 시 관련 정보 동적 표시<br/>
+      - 요금 종류 태그 **클릭 시 관련 정보** 동적 표시<br/>
       - 반응형 구간에서 요금표 레이아웃 자동 변경
     </td>
     <td width="30%" align="right">
@@ -246,4 +246,4 @@
 
 ## 📝 라이선스
 
-본 프로젝트는 비상업적 포트폴리오 용도로 제작되었습니다.
+본 프로젝트는 비상업적 **학습, 포트폴리오 용도**로 제작되었습니다.
