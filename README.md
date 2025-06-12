@@ -29,15 +29,19 @@
 ## 💻 개발 환경
 
 
-- **사용 언어**: HTML, CSS, SCSS, JavaScript  
+- **사용 언어**: <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>  
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white"/>
 - **코드 에디터**: Visual Studio Code  
 
 ---
 
 
- ## ✨ 도메인
-👉 [롯데월드 아쿠아리움 리뉴얼 웹사이트 바로가기](https://yejin0722.github.io/aquarium/index.html)
+ ## ✨ 데모 사이트
+👉 [롯데월드 아쿠아리움 리뉴얼 웹사이트 바로가기](https://yejin0722.github.io/aquarium/index.html) <br>
 
+ 📱 태블릿, 모바일 환경에서도 최적화된 화면 제공
 
 ---
 
