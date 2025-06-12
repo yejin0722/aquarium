@@ -53,7 +53,7 @@
 
 | 이름    | 담당 섹션 |
 |---------|------------|
-| **문현아** | - 메인페이지 구조<br>- `section - program`<br>- `section - review`<br>- `footer` |
+| **문현아** | - `section - program`<br>- `section - review`<br>- `footer` |
 | **조예진** | - `section - event`<br>- `section - news`<br>- `section - directions` |
 | **이지호** | - `header`<br>- `section - main-visual`<br>- `section - sea creatures` |
 
