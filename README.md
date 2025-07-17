@@ -255,6 +255,15 @@
 </table>
 
 
+---
+
+## 🚀 링크
+
+
+- [📄 프로젝트 기획서 보기](https://docs.google.com/presentation/d/106nAFMrpP6Pb-bQHd7OB4EI6IvXfPZfA6OqNifG9pXs/edit?usp=sharing)
+- [🎨 와이어프레임, 피그마 디자인 시안 보기](https://www.figma.com/design/cYRyXXyj2RU8S13r8s38OI/Plan-A?node-id=90-2&t=dUq2jBVkuX4dE4JY-1)
+- [🏣 롯데월드 아쿠아리움 리뉴얼 웹사이트 바로가기](https://yejin0722.github.io/aquarium/index.html)
+
  
  ---
 
